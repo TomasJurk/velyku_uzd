@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>BMI calculator</title>
+</head>
+<body>
+    
+    <main>
+        <h2>Your BMI calculator</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia veritatis, esse magnam quia fuga recusandae ipsam earum nihil labore ratione omnis officiis beatae soluta ex laborum ab laboriosam accusamus corrupti autem tempore excepturi, quos temporibus. Animi laboriosam quam optio eaque doloribus repellat suscipit inventore pariatur eos veniam officiis iste ratione, tenetur natus architecto porro dolorem molestiae nobis. Distinctio tempora odio enim officia, voluptate aspernatur fugiat, a, explicabo exercitationem molestias veniam?</p>
+        <section class="birth-date">
+            <h3>Date of birth</h3>
+            <input type="date" name="" id="birthday-input">
+        </section>
+        <section class="height-weight">
+            <div class="height">
+                <h3>Height</h3>
+                <div class="buttons">
+                    <span class="btn-metr-imper btn-metr-imper--height left">imperial</span>
+                    <span class="btn-metr-imper btn-metr-imper--height right">metric</span>
+                </div>
+                <div class="input_heightweight">
+                    <input type="number" id="height">
+                    <span id="cm-in">cm/in</span>
+                </div>
+            </div>
+            <div class="weight">
+                <h3>Weight</h3>
+                <div class="buttons">
+                    <span class="btn-metr-imper btn-metr-imper--weight left">imperial</span>
+                    <span class="btn-metr-imper btn-metr-imper--weight right">metric</span>
+                </div>
+                <div class="input_heightweight">
+                    <input type="number" id="weight">
+                    <span id="kg-lbs">kg/lbs</span>
+                </div>
+            </div>
+        </section>
+        <section class="gender">
+            <h3>Gender</h3>
+            <div class="genders">
+                <span>male</span>
+                <span>female</span>
+            </div>
+        </section>
+        <section class="bmi-section">
+            <h3>Body mass index (BMI) = <span class="BMI_answer">00.0</span></h3>
+            <div class="bmi-range">
+                <span class="bmi-range--triangle"></span>
+                <div class="bmi-too-few">Underweight</div>
+                <div class="bmi-normal">Health weight</div>
+                <div class="bmi-bit-much">Overweight</div>
+                <div class="bmi-fat">Obese</div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html> 
